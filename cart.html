@@ -4,17 +4,17 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
-    <title>Товары</title>
+    <title>Checkout</title>
   </head>
-     <body style="background-color: gray">
-    <div class="container" style="background-color: white">
+  <body style="background-image: url('https://wallpapersmug.com/download/2048x1152/22daba/moon-rays-red-space-sky-abstract-mountains.jpg');">
+    <div class="container" style="background-color: white;">
   <div class="row">
     <div class="col-3 d-md-none d-lg-block d-sm-none d-none">
-      Телефон: 5555555555
+      Телефон: (+1 808)4475-6582
     </div>
     <div class="col-3 d-md-none d-lg-block d-sm-none d-none">
     Добро пожаловать!
@@ -76,7 +76,7 @@
   Регистрация
 </button></a>
     <a class="dropdown-item" href="account.html">Mои заказы</a>
-    <a class="dropdown-item" href="#">Настройки</a>
+    <a class="dropdown-item" href="settings.html">Настройки</a>
   </div>
  </div>
 </div>
@@ -89,21 +89,21 @@
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
-      <li class="nav-item dropdown col-lg-2">
+      <li class="nav-item dropdown col-2">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Категория 1 <div class="spinner-grow text-danger" role="status">
   <span class="sr-only">Loading...</span>
 </div>
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="shop.html">Что-то важное<div class="spinner-grow text-danger" role="status">
+          <a class="dropdown-item" href="shop.html">Что-то важное <div class="spinner-grow text-danger" role="status">
   <span class="sr-only">Loading...</span>
 </div></a>
           <a class="dropdown-item" href="#">Подкатегория 2</a>
           <a class="dropdown-item" href="#">Подкатегория 3</a>
         </div>
       </li>
-      <li class="nav-item dropdown col-lg-2">
+      <li class="nav-item dropdown col-2">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Категория 2 <div class="spinner-grow text-info" role="status">
   <span class="sr-only">Loading...</span>
@@ -115,7 +115,7 @@
           <a class="dropdown-item" href="#">Подкатегория 3</a>
         </div>
       </li>
-      <li class="nav-item dropdown col-lg-2">
+      <li class="nav-item dropdown col-2">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Категория 3 <div class="spinner-grow text-info" role="status">
   <span class="sr-only">Loading...</span>
@@ -127,7 +127,7 @@
           <a class="dropdown-item" href="#">Подкатегория 3</a>
         </div>
       </li>
-      <li class="nav-item dropdown col-lg-2">
+      <li class="nav-item dropdown col-2">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown3" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Категория 4 <div class="spinner-grow text-info" role="status">
   <span class="sr-only">Loading...</span>
@@ -139,7 +139,7 @@
           <a class="dropdown-item" href="#">Подкатегория 3</a>
         </div>
       </li>
-      <li class="nav-item dropdown col-lg-2">
+      <li class="nav-item dropdown col-2">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown4" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Категория 5 <div class="spinner-grow text-info" role="status">
   <span class="sr-only">Loading...</span>
@@ -151,7 +151,7 @@
           <a class="dropdown-item" href="#">Подкатегория 3</a>
         </div>
       </li>
-      <li class="nav-item dropdown col-lg-2">
+      <li class="nav-item dropdown col-2">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown5" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Категория 6 <div class="spinner-grow text-info" role="status">
   <span class="sr-only">Loading...</span>
@@ -175,201 +175,51 @@
 <nav aria-label="breadcrumb">
   <ol class="breadcrumb">
     <li class="breadcrumb-item"><a href="index.html">Главная страница</a></li>
-    <li class="breadcrumb-item active" aria-current="page">Товары</li>
+    <li class="breadcrumb-item"><a href="shop.html">Товары</a></li>
+    <li class="breadcrumb-item"><a href="product.html">Страница игры</a></li>
+    <li class="breadcrumb-item active" aria-current="page">Cart</li>
   </ol>
 </nav>
-<select class="custom-select custom-select-sm">
-  <option selected>Сортировать по...</option>
-  <option value="1">Сортировать по дату выхода</option>
-  <option value="2">Сортировать по цену</option>
-  <option value="3">Сортировать по количеству скачиваний</option>
-</select>
-<div class="row">
-  <div class="col-lg-2 d-none d-lg-block">
-  <a class="btn btn-link" data-toggle="collapse" href="#collapseExample1" role="button" aria-expanded="false" aria-controls="collapseExample1">
-    Выбрать версию Windows
-  </a>
-  </p>
-  <div class="d-inline-flex p-2 bd-highlight">
-    <div class="collapse" id="collapseExample1">
-  <div class="card card-body">
-  <div class="form-check">
-  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-  <label class="form-check-label" for="defaultCheck1">
-   Windows 10
-  </label>
-</div>
- <div class="form-check">
-  <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
-  <label class="form-check-label" for="defaultCheck2">
-   Windows 8.1
-  </label>
-</div>
- <div class="form-check">
-  <input class="form-check-input" type="checkbox" value="" id="defaultCheck3">
-  <label class="form-check-label" for="defaultCheck3">
-   Windows 8
-  </label>
-</div>
-</div>
-</div>
-</div>
-<p>
-  <a class="btn btn-link" data-toggle="collapse" href="#collapseExample2" role="button" aria-expanded="false" aria-controls="collapseExample2">
-    Выбрать свою версию ОЗУ
-  </a>
-  </p>
-  <div class="d-inline-flex p-2 bd-highlight">
-    <div class="collapse" id="collapseExample2">
-  <div class="card card-body">
-    <div class="form-check">
-  <input class="form-check-input" type="checkbox" value="" id="defaultCheck4">
-  <label class="form-check-label" for="defaultCheck4">
-   4/6 GB
-  </label>
-</div>
-<div class="form-check">
-  <input class="form-check-input" type="checkbox" value="" id="defaultCheck5">
-  <label class="form-check-label" for="defaultCheck5">
-   8/10 GB
-  </label>
-</div>
-<div class="form-check">
-  <input class="form-check-input" type="checkbox" value="" id="defaultCheck6">
-  <label class="form-check-label" for="defaultCheck6">
-   12 GB
-  </label>
-</div>
+<h1 style="font-family: 'Indie Flower', cursive;" class="text-center">Checkout</h1>
+<h4 style="font-family: 'Lobster', cursive;" class="text-center">Заполните все, и нажимайте продолжить</h4>
+<form>
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="inputEmail4">Имя</label>
+      <input type="email" class="form-control" id="inputEmail4" placeholder="Ваше имя">
+    </div>
+    <div class="form-group col-md-6">
+      <label for="inputPassword4">Фамилия</label>
+      <input type="password" class="form-control" id="inputPassword4" placeholder="Ваша фамилия">
+    </div>
   </div>
-</div>
-</div>
-<p>
-  <a class="btn btn-link" data-toggle="collapse" href="#collapseExample3" role="button" aria-expanded="false" aria-controls="collapseExample3">
-    Выбрать версию игры
-  </a>
-  </p>
-  <div class="d-inline-flex p-2 bd-highlight">
-    <div class="collapse" id="collapseExample3">
-  <div class="card card-body">
-    <div class="form-check">
-  <input class="form-check-input" type="checkbox" value="" id="defaultCheck7">
-  <label class="form-check-label" for="defaultCheck7">
-   12.10.1.5
-  </label>
-</div>
-<div class="form-check">
-  <input class="form-check-input" type="checkbox" value="" id="defaultCheck8">
-  <label class="form-check-label" for="defaultCheck8">
-   12.10.2.0
-  </label>
-</div>
-<div class="form-check">
-  <input class="form-check-input" type="checkbox" value="" id="defaultCheck9">
-  <label class="form-check-label" for="defaultCheck9">
-   12.11.3.1
-  </label>
-</div>
+  <div class="form-group">
+    <label for="inputAddress">Aдрес</label>
+    <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
   </div>
-</div>
-</div>
-<p>
-  <a class="btn btn-link" data-toggle="collapse" href="#collapseExample8" role="button" aria-expanded="false" aria-controls="collapseExample8">
-    Выбрать свою версию ОЗУ
-  </a>
-  </p>
-  <div class="d-inline-flex p-2 bd-highlight">
-    <div class="collapse" id="collapseExample8">
-  <div class="card card-body">
-    <div class="form-check">
-  <input class="form-check-input" type="checkbox" value="" id="defaultCheck10">
-  <label class="form-check-label" for="defaultCheck10">
-   4/6 GB
-  </label>
-</div>
-<div class="form-check">
-  <input class="form-check-input" type="checkbox" value="" id="defaultCheck11">
-  <label class="form-check-label" for="defaultCheck11">
-   8/10 GB
-  </label>
-</div>
-<div class="form-check">
-  <input class="form-check-input" type="checkbox" value="" id="defaultCheck12">
-  <label class="form-check-label" for="defaultCheck12">
-   12 GB
-  </label>
-</div>
+  <div class="form-group">
+    <label for="inputAddress2">Postcode</label>
+    <input type="text" class="form-control" id="inputAddress2" placeholder="Например: 1826">
   </div>
-</div>
-</div>
-<div class="custom-control custom-switch">
-  <input type="checkbox" class="custom-control-input" id="customSwitch1">
-  <label class="custom-control-label" for="customSwitch1">Скрывать описание</label>
-</div>
-</div>
-<div class="col-12 col-lg-10">
-<div class="card mb-3">
-        <div class="row no-gutters">
-          <div class="col-md-4">
-            <img src="img/gta5.png" class="card-img" alt="...">
-          </div>
-          <div class="col-md-8">
-            <div class="card-body">
-              <h5 class="card-title"><a href="product.html">GTA V</a></h5>
-              <h6>Особенности репака</h6>
-              <ul>
-                  <li>За основу взят релиз от RELOADED</li>
-                  <li>Ничего не вырезано | Не перекодировано</li>
-                  <li>Версия игры : 1.0.1180.1/1.41</li>
-              </ul>
-              <a class="btn btn-primary" href="cart.html" role="button">Перейти</a>
-            </div>
-          </div>
-        </div>
-      </div>
-<div class="card mb-3">
-        <div class="row no-gutters">
-          <div class="col-md-4">
-            <img src="img/mafia.png" class="card-img" alt="...">
-          </div>
-          <div class="col-md-8">
-            <div class="card-body">
-              <h5 class="card-title">Mafia II</h5>
-              <h6>Особенности репака</h6>
-              <ul>
-                 <li>За основу взят релиз от GOG Director's Cut</li>
-                 <li>Ничего не вырезано / ничего не перекодировано</li>
-                 <li>Версия игры: 1.0.0.1 Update 5а</li>
-                 <li>Время установки ~3 минуты (зависит от компьютера</li>
-              </ul>
-              <a class="btn btn-primary" href="cart.html" role="button">Перейти</a>
-            </div>
-          </div>
-        </div>
-      </div>
-<div class="card mb-3">
-        <div class="row no-gutters">
-          <div class="col-md-4">
-            <img src="img/dirt3.png" class="card-img" alt="...">
-          </div>
-          <div class="col-md-8">
-            <div class="card-body">
-              <h5 class="card-title">Dirt 3</h5>
-              <h6>Особенности репака</h6>
-              <ul>
-                  <li>Версия игры: 1.2.2.0</li>
-                  <li>Удалена вся озвучка кроме указанной</li>
-                  <li>Не перекодировано</li>
-                  <li>Версия 1.2.0.0</li>
-                  <li>All DLC</li>
-                  <li>Установка дополнительного П.О. (опционально)</li>
-              </ul>
-              <a class="btn btn-primary" href="cart.html" role="button">Перейти</a>
-            </div>
-          </div>
-        </div>
-      </div>
-</div>
-</div>
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="inputCity">Город</label>
+      <input type="text" class="form-control" id="inputCity" placeholder="Ваш город...">
+    </div>
+    <div class="form-group col-md-4">
+      <label for="inputState">Регион</label>
+      <select id="inputState" class="form-control">
+        <option selected>Выбрать...</option>
+        <option>...</option>
+      </select>
+    </div>
+    <div class="form-group col-md-2">
+      <label for="inputZip">Zip</label>
+      <input type="text" class="form-control" id="inputZip">
+    </div>
+  </div>
+<a class="btn btn-outline-success" href="payment.html" role="button">Продолжить</a>
+</form>
 <div class="d-flex justify-content-center flex-lg-row  flex-column bd-highligh">
         <a class="text-center flex-fill py-3 px-lg-5 border bg-light text-uppercase font-weight-bold text-secondary text-decoration-none" href="#">Найти нас</a>
         <a class="text-center flex-fill py-3 px-lg-5 border bg-light text-uppercase font-weight-bold text-secondary text-decoration-none" href="#">Онлайн чат</a>
@@ -408,20 +258,25 @@
           <a class="d-md-flex d-none text-left text-secondary text-decoration-none" href="#">Link 3</a>
         </div>
       </div>
-  <footer>
-        <nav class="navbar navbar-dark bg-dark d-md-none d-lg-block d-sm-none d-none">
-  <form class="form-inline">
-    <h5 style="color: white">Найти нас в соц. сетях</h5>
-    <a class="mr-2 ml-2" href="https://www.facebook.com"><img src="img/fb.png" height="40" width="40"></a>
-    <a class="mr-2 ml-2" href="https://www.instagram.com"><img src="img/insta.png" height="40" width="40"></a>
-    <a class="mr-2 ml-2" href="https://www.vk.com"><img src="img/vk.png" height="40" width="40"></a>
-    <a href="https://www.twitter.com"><img src="img/twitter.png" height="50" width="50"></a>
-    <input class="form-control mr-sm-2" type="search" placeholder="Отзыв" aria-label="Отзыв">
-    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Отправить</button>
-  </form>
-</nav>
-      </footer>
-</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
@@ -507,6 +362,14 @@
    </div>
   </div>
 </div>
+
+
+
+
+
+
+
+
 
 
 
